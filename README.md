@@ -5,6 +5,7 @@ Firefox OS for the HTC Rezound
 About the FFOS team
 
 clmowers - Developer, Tester
+
 DarkCodedDragon - Developer, Tester
 
 report bugs at 
