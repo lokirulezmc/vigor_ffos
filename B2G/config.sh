@@ -151,11 +151,17 @@ case "$1" in
 	repo_sync $1
 	;;
 
+"vigor")
+	echo DEVICE=vigor >> .tmp-config &&
+	repo_sync $1
+	;;
+
 *)
 	echo "Usage: $0 [-cdflnq] (device name)"
 	echo "Flags are passed through to |./repo sync|."
 	echo
 	echo Valid devices to configure are:
+	echo - vigor
 	echo - galaxy-s2
 	echo - galaxy-nexus
 	echo - nexus-4
